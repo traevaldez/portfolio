@@ -1,0 +1,33 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+
+}
+
+body {
+    background-color: ;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: ;
+}
+
+header {
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    position: absolute;
+    padding: ;
+}
