@@ -5,6 +5,7 @@
     list-style: none;
 }
 
+
 :root {
     --primary-color: ;
     --secondary-color: ;
@@ -16,18 +17,41 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-a {
-    display: inline-block;
-    text-decoration: none;
-    color: ;
-}
-
+/* header */
 header {
     overflow: hidden;
+}
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 20px 30px;
+}
+
+.navbar ul li {
+    font-size: 1.1rem;
+    font-weight: bold; 
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+
 }
 
 section {
     width: 100%;
     position: absolute;
-    padding: ;
+    padding: 8px, 25px;
 }
