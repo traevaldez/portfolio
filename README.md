@@ -1,13 +1,19 @@
-# Trae Valdez | Portfolio
+# Trae Valdez
 
-# Purpose
+## Purpose
 To show off all the work I've done throughout bootcamp
 
-# Code
+## Build With
 HTML
 CSS
 
-# Users
-Trae Valdez
+## Website
+https://traevaldez.github.io/portfolio/
+
+## Contribution
+Made with ❤️ by Trae Valdez
+
+### ©️2022 FuneralEmpire, Inc 
+
 
 
