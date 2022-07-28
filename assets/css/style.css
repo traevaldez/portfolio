@@ -169,13 +169,13 @@ header h3 {
 #portfolio {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .gallery {
     display: flex;
     flex-wrap: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
 }
 
@@ -185,6 +185,26 @@ header h3 {
     height: 240px;
 }
 
+/* Contact */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: #fff
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact p {
+    justify-content: center;
+    text-align: center;
+}
 
 /* Footer */
 footer {
