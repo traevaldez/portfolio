@@ -290,14 +290,10 @@ footer div {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .intro {
-
-    }
     .intro p {
         display: inline-block;
         font-size: 10px;
