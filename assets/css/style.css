@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    
 }
 
 
@@ -13,8 +14,9 @@
 }
 
 body {
-    background-color: ;
     font-family: 'Poppins', sans-serif;
+    background-color: #000
+
 }
 
 /* header */
@@ -22,6 +24,13 @@ header {
     overflow: hidden;
 }
 
+header h2 {
+    color: #fff;
+}
+
+header h3 {
+    color: #fff;
+}
 
 /* navbar */
 .navbar {
@@ -47,11 +56,42 @@ header {
     text-decoration: none;
     color: #fff;
     padding: 8px 25px;
+    transition: all .5s ease;
 
 }
+
+.navbar ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Hero Section */
+
+.hero {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+}
+
+.hero p {
+    color: #fff;
+}
+
 
 section {
     width: 100%;
     position: absolute;
     padding: 8px, 25px;
+    
 }
